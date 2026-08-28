@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="container page-header">
+  <h1 class="page-title">🗓️ 30-Tage Monatsplan</h1>
+  <p class="page-desc">Volle 30 Tage kohlenhydratfreie Abendessen & zuckerarme Desserts – <strong>garantiert ohne doppelte Rezepte</strong>!</p>
+</div>
+
+<div class="container section-padding">
+  <!-- Key Facts Bar -->
+  <div class="plan-facts-bar">
+    <div class="fact-box">
+      <span class="fact-num">30</span>
+      <span class="fact-label">Einzigartige Abendessen</span>
+    </div>
+    <div class="fact-box">
+      <span class="fact-num">0</span>
+      <span class="fact-label">Dopplungen im Monat</span>
+    </div>
+    <div class="fact-box">
+      <span class="fact-num">&lt; 8g</span>
+      <span class="fact-label">Ø Kohlenhydrate / Abendessen</span>
+    </div>
+    <div class="fact-box">
+      <span class="fact-num">100%</span>
+      <span class="fact-label">Erbsen- & Fleischfrei</span>
+    </div>
+  </div>
+
+  <!-- Month Grid -->
+  {{ $dinners := sort (where .Site.RegularPages "Params.category" "Abendessen") "Params.day" }}
+  {{ $desserts := where .Site.RegularPages "Params.category" "Nachtisch" }}
+
+  <div class="month-calendar-grid">
+    {{ range $index, $element := $dinners }}
+      {{ $dessert := index $desserts (mod $index (len $desserts)) }}
+      <div class="month-day-cell">
+        <div class="month-day-header">
+          <span class="month-day-num">Tag {{ $element.Params.day }}</span>
+          <span class="month-week-label">Woche {{ if le $element.Params.day 7 }}1{{ else if le $element.Params.day 14 }}2{{ else if le $element.Params.day 21 }}3{{ else }}4{{ end }}</span>
+        </div>
+        <div class="month-day-dinner">
+          <span class="month-meal-tag">🌙 Abendessen</span>
+          <h4 class="month-recipe-title">
+            <a href="{{ $element.RelPermalink }}">{{ $element.Title }}</a>
+          </h4>
+          <div class="month-meta">
+            <span>⏱️ {{ $element.Params.total_time }}</span> &bull; 
+            <span>🔥 {{ $element.Params.nutrition.calories }} kcal</span> &bull; 
+            <span>🥑 {{ $element.Params.nutrition.carbs }}g KH</span>
+          </div>
+        </div>
+        <div class="month-day-dessert">
+          <span class="month-meal-tag-dessert">🍓 Nachtisch</span>
+          <a href="{{ $dessert.RelPermalink }}" class="month-dessert-link">{{ $dessert.Title }}</a>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

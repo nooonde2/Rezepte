@@ -1,3 +1,15 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = '/'
+defaultContentLanguage = 'de'
+locale = 'de-DE'
+title = 'Rezepte | Low Carb & Zuckerarm'
+
+[params]
+  description = 'Rezeptsammlung für kohlenhydratfreies Abendessen & zuckerarmen Nachtisch. Schnell, vegetarisch, erbsenfrei & laktosearm.'
+  author = 'Rezepte Team'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[markup.goldmark.renderer]
+  unsafe = true

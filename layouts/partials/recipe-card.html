@@ -1,0 +1,42 @@
+<div class="recipe-card" data-category="{{ .Params.category }}" data-tags="{{ delimit .Params.tags " " }}" data-time="{{ .Params.total_time }}">
+  <div class="recipe-card-badge-row">
+    <span class="badge {{ if eq .Params.category "Abendessen" }}badge-dinner{{ else }}badge-dessert{{ end }}">
+      {{ if eq .Params.category "Abendessen" }}🌙 Abendessen{{ else }}🍓 Nachtisch{{ end }}
+    </span>
+    <span class="badge badge-time">⏱️ {{ .Params.total_time }}</span>
+  </div>
+  
+  <h3 class="recipe-card-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+  
+  <p class="recipe-card-summary">{{ .Params.summary }}</p>
+  
+  <div class="recipe-card-nutrition">
+    <div class="nutrition-pill">
+      <span class="nutri-val">{{ .Params.nutrition.calories }}</span>
+      <span class="nutri-label">kcal</span>
+    </div>
+    <div class="nutrition-pill">
+      <span class="nutri-val">{{ .Params.nutrition.protein }}g</span>
+      <span class="nutri-label">Eiweiß</span>
+    </div>
+    <div class="nutrition-pill">
+      <span class="nutri-val">{{ .Params.nutrition.carbs }}g</span>
+      <span class="nutri-label">KH</span>
+    </div>
+    <div class="nutrition-pill">
+      <span class="nutri-val">{{ .Params.nutrition.fat }}g</span>
+      <span class="nutri-label">Fett</span>
+    </div>
+  </div>
+
+  <div class="recipe-card-footer">
+    <div class="tag-list">
+      {{ range first 3 .Params.tags }}
+        <span class="mini-tag">#{{ . }}</span>
+      {{ end }}
+    </div>
+    <a href="{{ .RelPermalink }}" class="btn-card">Rezept ansehen &rarr;</a>
+  </div>
+</div>

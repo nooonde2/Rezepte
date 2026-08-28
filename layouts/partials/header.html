@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="site-logo">
+      <span class="logo-icon">🥗</span>
+      <span class="logo-text"><strong>Rezepte</strong> <span class="badge-lowcarb">Low Carb</span></span>
+    </a>
+    
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="/" class="{{ if .IsHome }}active{{ end }}">Home</a></li>
+        <li><a href="/rezepte/" class="{{ if eq .Section "rezepte" }}active{{ end }}">Alle Rezepte</a></li>
+        <li><a href="/wochenplan/" class="{{ if eq .Section "wochenplan" }}active{{ end }}">📅 Wochenplan</a></li>
+        <li><a href="/monatsplan/" class="{{ if eq .Section "monatsplan" }}active{{ end }}">🗓️ Monatsplan</a></li>
+        <li><a href="/zutaten/" class="{{ if eq .Section "zutaten" }}active{{ end }}">🛒 Die 2 Listen</a></li>
+        <li><a href="/tipps/" class="{{ if eq .Section "tipps" }}active{{ end }}">💡 Tipps & Ideen</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
