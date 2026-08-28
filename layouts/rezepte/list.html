@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="container page-header">
+  <h1 class="page-title">🥗 Alle Rezepte</h1>
+  <p class="page-desc">Kohlenhydratfreie Abendessen und zuckerarme Desserts – filterbar nach Kategorie, Zutat und Zubereitungszeit.</p>
+</div>
+
+<div class="container section-padding">
+  <!-- Search & Filter Controls -->
+  <div class="filter-toolbar">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="recipeSearchInput" placeholder="Zutat oder Gericht suchen (z.B. Zucchini, Tofu, Brokkoli, Limette...)" autocomplete="off">
+      <button type="button" id="clearSearchBtn" class="clear-search-btn" style="display:none;">&times;</button>
+    </div>
+
+    <div class="filter-pills-row">
+      <div class="filter-group">
+        <span class="filter-label">Kategorie:</span>
+        <button type="button" class="btn-filter active" data-filter-cat="all">Alle ({{ len (where .Site.RegularPages "Type" "rezepte") }})</button>
+        <button type="button" class="btn-filter" data-filter-cat="Abendessen">🌙 Abendessen ({{ len (where .Site.RegularPages "Params.category" "Abendessen") }})</button>
+        <button type="button" class="btn-filter" data-filter-cat="Nachtisch">🍓 Nachtisch ({{ len (where .Site.RegularPages "Params.category" "Nachtisch") }})</button>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Zutaten-Schnellfilter:</span>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Zucchini">Zucchini</button>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Tofu">Tofu</button>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Brokkoli">Brokkoli</button>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Paprika">Paprika</button>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Champignons">Champignons</button>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Sojasprossen">Sojasprossen</button>
+        <button type="button" class="btn-tag-filter" data-filter-tag="Schnell">&le; 20 Min</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="noResultsMsg" class="no-results-msg" style="display: none;">
+    <p>Keine Rezepte für diese Auswahl gefunden. Bitte Suchbegriff oder Filter anpassen.</p>
+  </div>
+
+  <!-- Recipe Grid -->
+  <div class="recipe-grid" id="allRecipesGrid">
+    {{ range (where .Site.RegularPages "Type" "rezepte") }}
+      {{ partial "recipe-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,10 @@
+{
+  "name": "rezepte",
+  "version": "1.0.0",
+  "description": "Rezeptsammlung für kohlenhydratfreies Abendessen & zuckerarmen Nachtisch",
+  "scripts": {
+    "dev": "hugo server --bind 0.0.0.0 -p 4318 --appendPort=false --buildDrafts --buildFuture --disableFastRender",
+    "start": "hugo server --bind 0.0.0.0 -p 4318 --appendPort=false",
+    "build": "hugo --gc --minify"
+  }
+}

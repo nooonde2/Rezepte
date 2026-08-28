@@ -1,1 +1,91 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{ .Site.Title }}</title><style>body{font-family:system-ui,sans-serif;max-width:760px;margin:12vh auto;padding:0 24px;line-height:1.6}h1{font-size:clamp(2.5rem,8vw,5rem);line-height:1}</style><h1>{{ .Site.Title }}</h1><p>Your new Hugo website is running.</p></html>
+{{ define "main" }}
+<div class="hero-section">
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <div class="hero-pill">🥗 Kohlenhydratfrei & Zuckerarm</div>
+      <h1 class="hero-title">Abendessen & Nachtisch für jeden Tag</h1>
+      <p class="hero-subtitle">
+        Vegetarisch, garantiert ohne Fleisch & Fisch, 100% erbsenfrei und laktosearm. 
+        Schnell zubereitet mit bevorzugten Zutaten aus deinem Supermarkt um die Ecke.
+      </p>
+      <div class="hero-cta">
+        <a href="/wochenplan/" class="btn btn-primary">📅 Wochenplan & Einkaufsliste</a>
+        <a href="/monatsplan/" class="btn btn-outline">🗓️ 30-Tage-Monatsplan</a>
+        <a href="/zutaten/" class="btn btn-secondary">🛒 Die 2 Listen ansehen</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container section-padding">
+  <!-- Key Highlights Cards -->
+  <div class="highlights-grid">
+    <div class="highlight-card">
+      <div class="card-icon">🚫</div>
+      <h3>Liste 1: No-Gos</h3>
+      <p>Kein Fleisch, kein Fisch, 0% Erbsen (Allergie) und minimale Laktose/Milch.</p>
+      <a href="/zutaten/" class="link-arrow">Details ansehen &rarr;</a>
+    </div>
+    <div class="highlight-card">
+      <div class="card-icon">🛒</div>
+      <h3>Liste 2: Supermarkt-Lieblinge</h3>
+      <p>Zucchini, Paprika, Tomaten, Pilze, Tofu, Brokkoli, Lauchzwiebeln & mehr.</p>
+      <a href="/zutaten/" class="link-arrow">Zutatenliste ansehen &rarr;</a>
+    </div>
+    <div class="highlight-card">
+      <div class="card-icon">⚖️</div>
+      <h3>Portionsrechner</h3>
+      <p>Alles auf 1 Person basisberechnet, standardmäßig für 2 Personen angezeigt.</p>
+      <a href="/rezepte/" class="link-arrow">Zu den Rezepten &rarr;</a>
+    </div>
+    <div class="highlight-card">
+      <div class="card-icon">🗓️</div>
+      <h3>Keine Dopplungen</h3>
+      <p>30 Tage einzigartige Abendessen – ein kompletter Monat ohne Wiederholung!</p>
+      <a href="/monatsplan/" class="link-arrow">Monatsplan öffnen &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<div class="container section-padding">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title">🌙 Beliebte Low-Carb Abendessen</h2>
+      <p class="section-desc">Einfach, schnell zubereitet und voller pflanzlichem Eiweiß</p>
+    </div>
+    <a href="/rezepte/?cat=Abendessen" class="btn btn-outline">Alle 30 Abendessen &rarr;</a>
+  </div>
+
+  <div class="recipe-grid">
+    {{ range first 6 (where .Site.RegularPages "Params.category" "Abendessen") }}
+      {{ partial "recipe-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+
+<div class="container section-padding">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title">🍓 Zuckerarme Desserts</h2>
+      <p class="section-desc">Süßer Genuss ohne Blutzuckerspitzen – laktosearm & leicht</p>
+    </div>
+    <a href="/rezepte/?cat=Nachtisch" class="btn btn-outline">Alle 10 Desserts &rarr;</a>
+  </div>
+
+  <div class="recipe-grid">
+    {{ range first 4 (where .Site.RegularPages "Params.category" "Nachtisch") }}
+      {{ partial "recipe-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+
+<div class="container section-padding">
+  <div class="banner-box">
+    <div class="banner-content">
+      <h2>💡 Clever & entspannt durch den Alltag</h2>
+      <p>Entdecke unsere Empfehlungen für den Vorratsschrank, Gewürze wie Smoked Paprika & Hefeflocken, Meal-Prep-Routinen und Heißhunger-Tipps.</p>
+      <a href="/tipps/" class="btn btn-primary">Alle Tipps & Ideen lesen &rarr;</a>
+    </div>
+  </div>
+</div>
+{{ end }}

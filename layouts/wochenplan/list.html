@@ -1,0 +1,215 @@
+{{ define "main" }}
+<div class="container page-header">
+  <h1 class="page-title">📅 Interaktiver Wochenplan</h1>
+  <p class="page-desc">4 abwechslungsreiche Wochen ohne Rezeptwiederholung. Inklusive Portionsanpassung und wöchentlicher Einkaufsliste.</p>
+</div>
+
+<div class="container section-padding">
+  <!-- Week Switcher Tabs -->
+  <div class="week-tab-bar">
+    <button class="week-tab active" data-target="week-1">Woche 1 (Tag 1–7)</button>
+    <button class="week-tab" data-target="week-2">Woche 2 (Tag 8–14)</button>
+    <button class="week-tab" data-target="week-3">Woche 3 (Tag 15–21)</button>
+    <button class="week-tab" data-target="week-4">Woche 4 (Tag 22–28)</button>
+  </div>
+
+  <!-- Weekly Shopping List Generator Box -->
+  <div class="shopping-banner">
+    <div class="shopping-banner-text">
+      <h3>🛒 Wöchentliche Einkaufsliste</h3>
+      <p>Lass dir alle Zutaten für die aktuell ausgewählte Woche gebündelt anzeigen – perfekt für den Wocheneinkauf im Supermarkt!</p>
+    </div>
+    <div class="shopping-banner-actions">
+      <button type="button" class="btn btn-primary" id="btnGenerateShoppingList">
+        🛍️ Einkaufsliste anzeigen & drucken
+      </button>
+    </div>
+  </div>
+
+  <!-- Shopping List Modal / Drawer -->
+  <div id="shoppingListModal" class="modal-backdrop" style="display:none;">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3 id="modalWeekTitle">🛒 Einkaufsliste für Woche 1 (2 Personen)</h3>
+        <button type="button" class="modal-close-btn" id="btnCloseModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalShoppingContent">
+        <!-- Will be populated dynamically via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline" onclick="window.print()">🖨️ Einkaufsliste drucken</button>
+        <button type="button" class="btn btn-secondary" id="btnCloseModal2">Schließen</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Week Panels -->
+  {{ $dinners := where .Site.RegularPages "Params.category" "Abendessen" }}
+  {{ $desserts := where .Site.RegularPages "Params.category" "Nachtisch" }}
+
+  <!-- WEEK 1 (Days 1 to 7) -->
+  <div class="week-panel active" id="week-1">
+    <div class="week-header-info">
+      <h2>Woche 1: Schneller & Frischer Einstieg</h2>
+      <p>Schwerpunkt: Zoodles, Wok mit Sprossen, Ofen-Brokkoli & Shakshuka</p>
+    </div>
+    <div class="meal-days-list">
+      {{ range $index, $element := (first 7 (sort $dinners "Params.day")) }}
+        {{ $dayNum := add $index 1 }}
+        {{ $dessert := index $desserts (mod $index (len $desserts)) }}
+        <div class="meal-day-card">
+          <div class="day-badge">
+            <span class="day-title">Tag {{ $element.Params.day }}</span>
+            <span class="weekday-name">
+              {{ if eq $index 0 }}Montag{{ else if eq $index 1 }}Dienstag{{ else if eq $index 2 }}Mittwoch{{ else if eq $index 3 }}Donnerstag{{ else if eq $index 4 }}Freitag{{ else if eq $index 5 }}Samstag{{ else }}Sonntag{{ end }}
+            </span>
+          </div>
+          <div class="day-meals-container">
+            <div class="meal-slot meal-dinner">
+              <span class="slot-label">🌙 Abendessen</span>
+              <h4><a href="{{ $element.RelPermalink }}">{{ $element.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>⏱️ {{ $element.Params.total_time }}</span>
+                <span>🔥 {{ $element.Params.nutrition.calories }} kcal</span>
+                <span>💪 {{ $element.Params.nutrition.protein }}g Eiweiß</span>
+                <span>🥑 {{ $element.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+            <div class="meal-slot meal-dessert">
+              <span class="slot-label">🍓 Dessert-Empfehlung</span>
+              <h4><a href="{{ $dessert.RelPermalink }}">{{ $dessert.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>🔥 {{ $dessert.Params.nutrition.calories }} kcal</span>
+                <span>🥑 {{ $dessert.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- WEEK 2 (Days 8 to 14) -->
+  <div class="week-panel" id="week-2">
+    <div class="week-header-info">
+      <h2>Woche 2: Knackig & Herzhaft</h2>
+      <p>Schwerpunkt: Sesam-Tofu, Blumenkohl-Reis, Paprikagulasch & Zucchini-Puffer</p>
+    </div>
+    <div class="meal-days-list">
+      {{ range $index, $element := (first 7 (after 7 (sort $dinners "Params.day"))) }}
+        {{ $dessert := index $desserts (mod (add $index 2) (len $desserts)) }}
+        <div class="meal-day-card">
+          <div class="day-badge">
+            <span class="day-title">Tag {{ $element.Params.day }}</span>
+            <span class="weekday-name">
+              {{ if eq $index 0 }}Montag{{ else if eq $index 1 }}Dienstag{{ else if eq $index 2 }}Mittwoch{{ else if eq $index 3 }}Donnerstag{{ else if eq $index 4 }}Freitag{{ else if eq $index 5 }}Samstag{{ else }}Sonntag{{ end }}
+            </span>
+          </div>
+          <div class="day-meals-container">
+            <div class="meal-slot meal-dinner">
+              <span class="slot-label">🌙 Abendessen</span>
+              <h4><a href="{{ $element.RelPermalink }}">{{ $element.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>⏱️ {{ $element.Params.total_time }}</span>
+                <span>🔥 {{ $element.Params.nutrition.calories }} kcal</span>
+                <span>💪 {{ $element.Params.nutrition.protein }}g Eiweiß</span>
+                <span>🥑 {{ $element.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+            <div class="meal-slot meal-dessert">
+              <span class="slot-label">🍓 Dessert-Empfehlung</span>
+              <h4><a href="{{ $dessert.RelPermalink }}">{{ $dessert.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>🔥 {{ $dessert.Params.nutrition.calories }} kcal</span>
+                <span>🥑 {{ $dessert.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- WEEK 3 (Days 15 to 21) -->
+  <div class="week-panel" id="week-3">
+    <div class="week-header-info">
+      <h2>Woche 3: Mediterran & Feurig</h2>
+      <p>Schwerpunkt: Gefüllte Paprika, Ratatouille, Frittata, Asia-Suppe & Spieße</p>
+    </div>
+    <div class="meal-days-list">
+      {{ range $index, $element := (first 7 (after 14 (sort $dinners "Params.day"))) }}
+        {{ $dessert := index $desserts (mod (add $index 4) (len $desserts)) }}
+        <div class="meal-day-card">
+          <div class="day-badge">
+            <span class="day-title">Tag {{ $element.Params.day }}</span>
+            <span class="weekday-name">
+              {{ if eq $index 0 }}Montag{{ else if eq $index 1 }}Dienstag{{ else if eq $index 2 }}Mittwoch{{ else if eq $index 3 }}Donnerstag{{ else if eq $index 4 }}Freitag{{ else if eq $index 5 }}Samstag{{ else }}Sonntag{{ end }}
+            </span>
+          </div>
+          <div class="day-meals-container">
+            <div class="meal-slot meal-dinner">
+              <span class="slot-label">🌙 Abendessen</span>
+              <h4><a href="{{ $element.RelPermalink }}">{{ $element.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>⏱️ {{ $element.Params.total_time }}</span>
+                <span>🔥 {{ $element.Params.nutrition.calories }} kcal</span>
+                <span>💪 {{ $element.Params.nutrition.protein }}g Eiweiß</span>
+                <span>🥑 {{ $element.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+            <div class="meal-slot meal-dessert">
+              <span class="slot-label">🍓 Dessert-Empfehlung</span>
+              <h4><a href="{{ $dessert.RelPermalink }}">{{ $dessert.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>🔥 {{ $dessert.Params.nutrition.calories }} kcal</span>
+                <span>🥑 {{ $dessert.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- WEEK 4 (Days 22 to 28) -->
+  <div class="week-panel" id="week-4">
+    <div class="week-header-info">
+      <h2>Woche 4: Cremig, Würzig & Knackig</h2>
+      <p>Schwerpunkt: Pilzragout, Paprikasuppe, Zucchini-Lasagne, Thai-Salat & Tofubratlinge</p>
+    </div>
+    <div class="meal-days-list">
+      {{ range $index, $element := (first 7 (after 21 (sort $dinners "Params.day"))) }}
+        {{ $dessert := index $desserts (mod (add $index 6) (len $desserts)) }}
+        <div class="meal-day-card">
+          <div class="day-badge">
+            <span class="day-title">Tag {{ $element.Params.day }}</span>
+            <span class="weekday-name">
+              {{ if eq $index 0 }}Montag{{ else if eq $index 1 }}Dienstag{{ else if eq $index 2 }}Mittwoch{{ else if eq $index 3 }}Donnerstag{{ else if eq $index 4 }}Freitag{{ else if eq $index 5 }}Samstag{{ else }}Sonntag{{ end }}
+            </span>
+          </div>
+          <div class="day-meals-container">
+            <div class="meal-slot meal-dinner">
+              <span class="slot-label">🌙 Abendessen</span>
+              <h4><a href="{{ $element.RelPermalink }}">{{ $element.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>⏱️ {{ $element.Params.total_time }}</span>
+                <span>🔥 {{ $element.Params.nutrition.calories }} kcal</span>
+                <span>💪 {{ $element.Params.nutrition.protein }}g Eiweiß</span>
+                <span>🥑 {{ $element.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+            <div class="meal-slot meal-dessert">
+              <span class="slot-label">🍓 Dessert-Empfehlung</span>
+              <h4><a href="{{ $dessert.RelPermalink }}">{{ $dessert.Title }}</a></h4>
+              <div class="slot-meta">
+                <span>🔥 {{ $dessert.Params.nutrition.calories }} kcal</span>
+                <span>🥑 {{ $dessert.Params.nutrition.carbs }}g KH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

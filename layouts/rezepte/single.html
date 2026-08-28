@@ -1,0 +1,127 @@
+{{ define "main" }}
+<div class="recipe-detail-page">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="/">Home</a> &rsaquo; 
+      <a href="/rezepte/">Rezepte</a> &rsaquo; 
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <div class="recipe-header">
+      <div class="recipe-badges">
+        <span class="badge {{ if eq .Params.category "Abendessen" }}badge-dinner{{ else }}badge-dessert{{ end }}">
+          {{ if eq .Params.category "Abendessen" }}🌙 Abendessen{{ else }}🍓 Nachtisch{{ end }}
+        </span>
+        <span class="badge badge-difficulty">⚡ {{ .Params.difficulty }}</span>
+        <span class="badge badge-time">⏱️ Gesamt: {{ .Params.total_time }} (Vorbereitung: {{ .Params.prep_time }}, Kochen: {{ .Params.cook_time }})</span>
+      </div>
+
+      <h1 class="recipe-title">{{ .Title }}</h1>
+      <p class="recipe-lead">{{ .Params.summary }}</p>
+
+      <!-- Nutrition Bar (Per 1 Person base, scalable) -->
+      <div class="nutrition-card" id="nutritionBox" 
+           data-base-cal="{{ .Params.nutrition.calories }}"
+           data-base-pro="{{ .Params.nutrition.protein }}"
+           data-base-carb="{{ .Params.nutrition.carbs }}"
+           data-base-fat="{{ .Params.nutrition.fat }}"
+           data-base-fib="{{ .Params.nutrition.fiber }}">
+        <div class="nutrition-header">
+          <h4>Nährwert-Angaben <span class="nutrition-mode-label" id="nutritionModeLabel">(pro Person)</span></h4>
+          <span class="nutrition-note">100% kohlenhydratarm & zuckerreduziert</span>
+        </div>
+        <div class="nutrition-grid">
+          <div class="nutri-item">
+            <span class="nutri-number" id="nutriCalories">{{ .Params.nutrition.calories }}</span>
+            <span class="nutri-unit">kcal</span>
+            <span class="nutri-name">Brennwert</span>
+          </div>
+          <div class="nutri-item">
+            <span class="nutri-number" id="nutriProtein">{{ .Params.nutrition.protein }}g</span>
+            <span class="nutri-unit">Protein</span>
+            <span class="nutri-name">Eiweiß</span>
+          </div>
+          <div class="nutri-item">
+            <span class="nutri-number" id="nutriCarbs">{{ .Params.nutrition.carbs }}g</span>
+            <span class="nutri-unit">Carbs</span>
+            <span class="nutri-name">Kohlenhydrate</span>
+          </div>
+          <div class="nutri-item">
+            <span class="nutri-number" id="nutriFat">{{ .Params.nutrition.fat }}g</span>
+            <span class="nutri-unit">Fett</span>
+            <span class="nutri-name">Gesunde Fette</span>
+          </div>
+          <div class="nutri-item">
+            <span class="nutri-number" id="nutriFiber">{{ .Params.nutrition.fiber }}g</span>
+            <span class="nutri-unit">Ballastst.</span>
+            <span class="nutri-name">Sättigung</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recipe Layout: Ingredients on left/top, Instructions on right -->
+    <div class="recipe-body-grid">
+      <!-- Ingredients Sidebar -->
+      <div class="recipe-sidebar">
+        <div class="ingredients-card">
+          <div class="portion-selector-container">
+            <label for="portionCount" class="portion-label">Portionen anpassen:</label>
+            <div class="portion-stepper">
+              <button type="button" class="btn-step" id="btnPortionMinus" aria-label="Weniger Portionen">-</button>
+              <span class="portion-display"><strong id="portionValue">2</strong> <span id="portionUnit">Personen</span></span>
+              <button type="button" class="btn-step" id="btnPortionPlus" aria-label="Mehr Portionen">+</button>
+            </div>
+            <div class="portion-presets">
+              <button type="button" class="btn-preset" data-servings="1">1 Person (Basis)</button>
+              <button type="button" class="btn-preset active" data-servings="2">2 Personen (Standard)</button>
+              <button type="button" class="btn-preset" data-servings="4">4 Personen</button>
+            </div>
+          </div>
+
+          <h3 class="ingredients-title">🛒 Zutaten</h3>
+          <ul class="ingredients-list" id="ingredientsList">
+            {{ range .Params.ingredients }}
+            <li class="ingredient-row">
+              <label class="ingredient-checkbox-label">
+                <input type="checkbox" class="ingredient-check">
+                <span class="ingredient-amount" data-base-amount="{{ .amount }}">{{ if gt .amount 0.0 }}{{ mul .amount 2 }}{{ end }}</span>
+                <span class="ingredient-unit">{{ .unit }}</span>
+                <span class="ingredient-name"><strong>{{ .name }}</strong>{{ if .note }} <em class="ingredient-note">({{ .note }})</em>{{ end }}</span>
+              </label>
+            </li>
+            {{ end }}
+          </ul>
+
+          <div class="recipe-actions">
+            <button type="button" class="btn btn-outline btn-block" onclick="window.print()">
+              🖨️ Rezept drucken
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Instructions -->
+      <div class="recipe-main">
+        <div class="instructions-card">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Tags & Navigation footer -->
+    <div class="recipe-footer-nav">
+      <div class="recipe-tags">
+        <strong>Kategorien & Tags:</strong>
+        {{ range .Params.tags }}
+          <a href="/rezepte/?tag={{ . }}" class="tag-chip">#{{ . }}</a>
+        {{ end }}
+      </div>
+      <div class="recipe-back-link">
+        <a href="/rezepte/" class="btn btn-secondary">&larr; Zurück zur Rezeptübersicht</a>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
