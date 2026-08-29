@@ -1,0 +1,59 @@
+# Managed by Operator — GitHub Pages for the Hugo starter.
+#
+# Regenerating this from Project settings → GitHub Pages overwrites the file.
+# The build command and the published directory come from Operator's starter
+# catalogue (lib/scaffold.ts); editing them here is fine, but a regeneration
+# will put the catalogue's versions back.
+#
+# The site is published at https://nooonde2.github.io/Rezepte/
+# — a project site, which is why the build is given a base path of /Rezepte/.
+# Without it the page loads with no stylesheet and no images.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time, in order. Two pushes in quick succession must not
+# overtake each other and leave the older build published.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Install Hugo
+        env:
+          HUGO_VERSION: "0.128.0"
+        run: |
+          wget -q -O "$RUNNER_TEMP/hugo.deb" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "$RUNNER_TEMP/hugo.deb"
+      - name: Build the site
+        run: |
+          hugo --baseURL https://nooonde2.github.io/Rezepte/
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "public"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
