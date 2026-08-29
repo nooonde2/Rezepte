@@ -42,10 +42,10 @@
       "note": "sehr fein gehackt"
     },
     {
-      "name": "Senf (mittelscharf)",
+      "name": "Senf (mild)",
       "amount": 1,
       "unit": "TL",
-      "note": ""
+      "note": "mild"
     },
     {
       "name": "Mandelmehl / gemahlene Mandeln",

@@ -59,13 +59,13 @@
       "note": ""
     },
     {
-      "name": "Olivenöl",
+      "name": "Olivenöl oder Butter",
       "amount": 1,
       "unit": "EL",
       "note": ""
     },
     {
-      "name": "Salz, Pfeffer & Muskat",
+      "name": "Salz, Pfeffer & frische Kräuter (Petersilie/Schnittlauch)",
       "amount": 0,
       "unit": "nach Geschmack",
       "note": ""
@@ -77,16 +77,16 @@
 
 ## Zubereitung
 
-1. Eier mit Mandelmilch, Salz, Pfeffer und einer Prise Muskat verquirlen.
+1. Eier mit Mandelmilch (oder etwas Schmand/Milch), Salz, Pfeffer und gehackten Kräutern verquirlen.
 
-2. Öl in einer kleinen beschichteten Pfanne erhitzen. Champignons und Brokkoliröschen 4 Minuten anbraten.
+2. Öl oder Butter in einer beschichteten Pfanne erhitzen. Champignons und Brokkoliröschen 4 Minuten anbraten.
 
 3. Lauchzwiebelringe hinzugeben, die Eiermasse gleichmäßig darübergießen.
 
-4. Hitze auf kleinste Stufe reduzieren, Pfannendeckel auflegen und 8-10 Minuten sanft stocken lassen.
+4. Hitze auf kleinste Stufe reduzieren, Pfannendeckel auflegen und 8-10 Minuten sanft stocken lassen (wer mag, streut 2 Minuten vor Schluss etwas geriebenen Gouda darüber!).
 
 5. Vorsichtig auf einen Teller gleiten lassen und servieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Lässt sich auch kalt am nächsten Tag wunderbar essen.
+> 💡 **Tipp:** Lässt sich auch kalt am nächsten Tag wunderbar essen. Geriebener Gouda oder Emmentaler schmilzt herrlich auf der heißen Frittata.

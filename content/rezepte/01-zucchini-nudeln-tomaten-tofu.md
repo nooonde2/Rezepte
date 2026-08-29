@@ -81,7 +81,7 @@
 
 2. Tofu mit einer Gabel grob zerbröseln.
 
-3. 1 EL Olivenöl in einer Pfanne erhitzen. Zerbröselten Tofu und gehackten Knoblauch ca. 4 Minuten scharf anbraten.
+3. 1 EL Olivenöl in einer Pfanne erhitzen. Zerbröselten Tofu und gehackten Knoblauch ca. 4 Minuten kross und goldbraun anbraten.
 
 4. Gehackte Tomaten und Kräuter hinzufügen, mit Salz und Pfeffer abschmecken und 5 Minuten köcheln lassen.
 

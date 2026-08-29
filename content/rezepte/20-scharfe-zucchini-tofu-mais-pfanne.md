@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Scharfe Zucchini-Tofu-Pfanne mit Lauchzwiebeln & Mais",
+  "title": "Bunte Zucchini-Tofu-Pfanne mit Lauchzwiebeln & Mais (Mild)",
   "slug": "20-scharfe-zucchini-tofu-mais-pfanne",
   "date": "2026-08-01T12:00:00Z",
   "category": "Abendessen",
@@ -54,16 +54,16 @@
       "note": "in Ringen"
     },
     {
-      "name": "Bratöl",
+      "name": "Bratöl oder Olivenöl",
       "amount": 1,
       "unit": "EL",
       "note": ""
     },
     {
-      "name": "Chilipulver oder frische Chili",
+      "name": "Paprikapulver edelsüß (mild)",
       "amount": 0.5,
       "unit": "TL",
-      "note": ""
+      "note": "mild"
     },
     {
       "name": "Sojasauce & Zitronensaft",
@@ -72,20 +72,20 @@
       "note": ""
     }
   ],
-  "summary": "Feurige Zucchiniwürfel mit gebratenem Tofu und einer kleinen Portion Dosenmais für den süß-würzigen Kontrast."
+  "summary": "Aromatische Zucchiniwürfel mit gebratenem Tofu, milder Paprikawürze und einer kleinen Portion Dosenmais für den süß-herzhaften Kontrast."
 }
 ---
 
 ## Zubereitung
 
-1. Öl in der Pfanne erhitzen, Tofuwürfel 4 Minuten scharf anbraten.
+1. Öl in der Pfanne erhitzen, Naturtofuwürfel 4 Minuten goldbraun und kross anbraten.
 
 2. Zucchinischeiben und weiße Lauchzwiebelringe hinzugeben und 3 Minuten mitrösten.
 
-3. Mais, Chili, Sojasauce und Zitronensaft hinzufügen und 1 Minute durchschwenken.
+3. Mais, edelsüßes Paprikapulver, Sojasauce und Zitronensaft hinzufügen und 1 Minute durchschwenken.
 
 4. Mit den grünen Lauchzwiebelringen garnieren und servieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Mais enthält mehr Kohlenhydrate als grünes Gemüse, aber in kleiner Menge (2 EL = ca. 3g Kohlenhydrate) sorgt er für tollen Geschmack und passt perfekt in den Low-Carb Plan.
+> 💡 **Tipp:** Mais enthält etwas mehr Kohlenhydrate als grünes Gemüse, aber in kleiner Menge (2 EL = ca. 3g Kohlenhydrate) sorgt er für tollen Geschmack und passt perfekt in den Low-Carb Plan. Vollkommen mild gewürzt.

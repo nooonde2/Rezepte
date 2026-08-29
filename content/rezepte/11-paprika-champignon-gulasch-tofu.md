@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Ungarisches Paprika-Champignon-Gulasch mit Räuchertofu",
+  "title": "Ungarisches Paprika-Champignon-Gulasch mit gebratenem Tofu",
   "slug": "11-paprika-champignon-gulasch-tofu",
   "date": "2026-08-01T12:00:00Z",
   "category": "Abendessen",
@@ -29,10 +29,10 @@
   },
   "ingredients": [
     {
-      "name": "Räuchertofu",
+      "name": "Naturtofu",
       "amount": 100,
       "unit": "g",
-      "note": "gewürfelt"
+      "note": "in mundgerechte Würfel geschnitten"
     },
     {
       "name": "Rote & gelbe Paprika",
@@ -47,10 +47,16 @@
       "note": "halbiert"
     },
     {
-      "name": "Lauchzwiebel / kleine Zwiebel",
+      "name": "Lauchzwiebel / Zwiebel",
       "amount": 1,
       "unit": "Stück",
       "note": "gehackt"
+    },
+    {
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "Stück",
+      "note": "fein gehackt"
     },
     {
       "name": "Gemüsebrühe",
@@ -65,7 +71,7 @@
       "note": ""
     },
     {
-      "name": "Paprikapulver edelsüß & geräuchert",
+      "name": "Paprikapulver edelsüß & geräuchert (mild)",
       "amount": 1.5,
       "unit": "TL",
       "note": ""
@@ -77,22 +83,22 @@
       "note": ""
     }
   ],
-  "summary": "Herzhaft-würziger Gemüseeintopf mit Räuchertofuwürfeln, edelsüßem Paprikapulver und Champignons."
+  "summary": "Herzhaft-würziger Gemüseeintopf mit gebratenem Naturtofu, mildem geräuchertem Paprikapulver und Champignons."
 }
 ---
 
 ## Zubereitung
 
-1. Öl im Topf erhitzen, Räuchertofuwürfel 3 Minuten scharf anbraten.
+1. Öl im Topf erhitzen, Naturtofuwürfel 3-4 Minuten goldbraun und kross anbraten.
 
-2. Zwiebeln, Champignons und Paprikastücke hinzufügen und 3 Minuten mitschmoren.
+2. Zwiebeln, Knoblauch, Champignons und Paprikastücke hinzufügen und 3 Minuten mitschmoren.
 
-3. Tomatenmark und Paprikapulver einrühren und kurz anrösten (Achtung: nicht verbrennen lassen).
+3. Tomatenmark und mildes Paprikapulver (edelsüß & geräuchert) einrühren und kurz anrösten (Achtung: nicht verbrennen lassen).
 
 4. Mit Gemüsebrühe ablöschen, Deckel auflegen und 10-12 Minuten sanft köcheln lassen, bis das Gemüse weich ist.
 
-5. Mit Salz und Pfeffer abschmecken und dampfend heiß servieren.
+5. Mit Salz und schwarzem Pfeffer abschmecken und dampfend heiß servieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Schmeckt am zweiten Tag aufgewärmt fast noch besser – ideal zum Vorkochen!
+> 💡 **Tipp:** Mildes geräuchertes Paprikapulver verleiht dem Naturtofu ein tolles, herzhaftes Aroma – ganz ohne Schärfe und ohne Räuchertofu! Schmeckt am zweiten Tag aufgewärmt fast noch besser.

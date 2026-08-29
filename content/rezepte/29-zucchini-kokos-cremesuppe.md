@@ -65,7 +65,7 @@
       "note": ""
     },
     {
-      "name": "Salz, Pfeffer & Muskat",
+      "name": "Salz & schwarzer Pfeffer",
       "amount": 0,
       "unit": "nach Geschmack",
       "note": ""
@@ -77,16 +77,16 @@
 
 ## Zubereitung
 
-1. Zucchini und Lauchzwiebel in Gemüsebrühe ca. 10 Minuten weich kochen.
+1. Zucchini und Lauchzwiebel in Gemüsebrühe ca. 10 Minuten weich kochen (oder schonend im Dampfgarer dämpfen).
 
 2. Kokosmilch, Limettensaft und Limettenabrieb dazugeben.
 
-3. Mit dem Pürierstab samtig fein pürieren.
+3. Im Mixer oder mit dem Pürierstab samtig fein pürieren.
 
-4. Mit Salz, Pfeffer und einer Prise Muskat abschmecken.
+4. Mit Salz und einer Prise Pfeffer abschmecken.
 
 5. Mit gerösteten Kürbiskernen garniert anrichten.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Zucchini hat extrem wenig Kalorien und Kohlenhydrate und sorgt püriert für eine wunderbar sämige Suppentextur ohne Kartoffeln oder Stärke.
+> 💡 **Tipp:** Zucchini hat extrem wenig Kalorien und Kohlenhydrate und sorgt zusammen mit Kokosmilch für eine wunderbar sämige Suppentextur ganz ohne Kartoffeln oder Stärke. Kokosmilch wird hervorragend vertragen.

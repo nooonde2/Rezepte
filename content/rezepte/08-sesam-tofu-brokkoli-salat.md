@@ -66,28 +66,28 @@
       "note": "frisch"
     },
     {
-      "name": "Chiliflocken",
+      "name": "Paprikapulver edelsüß (mild)",
       "amount": 0.25,
       "unit": "TL",
-      "note": "nach Belieben"
+      "note": "für milde Würze"
     }
   ],
-  "summary": "Krosser Tofu mit Sesammantel auf gedämpftem Brokkoli mit Soja-Limetten-Vinaigrette."
+  "summary": "Krosser Tofu mit Sesammantel auf schonend gegartem Brokkoli mit Soja-Limetten-Vinaigrette."
 }
 ---
 
 ## Zubereitung
 
-1. Brokkoliröschen in kochendem Salzwasser 3-4 Minuten bissfest blanchieren, dann kalt abschrecken und abtropfen.
+1. Brokkoliröschen in kochendem Salzwasser (oder ca. 4 Minuten im Dampfgarer) bissfest dämpfen/blanchieren, dann kalt abschrecken und abtropfen.
 
 2. Tofu in Stifte schneiden, in 0.5 EL Sojasauce wenden und in Sesam wälzen.
 
 3. Öl in einer Pfanne erhitzen und den Sesamtofu von allen Seiten 4-5 Minuten goldbraun und kross anbraten.
 
-4. Brokkoli mit restlicher Sojasauce, Limettensaft und Chiliflocken vermischen.
+4. Brokkoli mit restlicher Sojasauce, Limettensaft und einer Prise edelsüßem Paprikapulver vermischen.
 
 5. Den warmen Brokkoli auf einem Teller anrichten und die knusprigen Sesamtofu-Stücke darauf platzieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Tofu vor dem Braten fest in Küchenpapier einwickeln und kurz beschweren – je trockener, desto knuspriger!
+> 💡 **Tipp:** Tofu vor dem Braten fest in Küchenpapier einwickeln und kurz beschweren – je trockener, desto knuspriger! Brokkoli lässt sich im Dampfgarer besonders nährstoffschonend garen.
