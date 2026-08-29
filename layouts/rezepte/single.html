@@ -3,8 +3,8 @@
   <div class="container">
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="/">Home</a> &rsaquo; 
-      <a href="/rezepte/">Rezepte</a> &rsaquo; 
+      <a href="{{ "" | relURL }}">Home</a> &rsaquo; 
+      <a href="{{ "rezepte/" | relURL }}">Rezepte</a> &rsaquo; 
       <span>{{ .Title }}</span>
     </nav>
 
@@ -115,11 +115,11 @@
       <div class="recipe-tags">
         <strong>Kategorien & Tags:</strong>
         {{ range .Params.tags }}
-          <a href="/rezepte/?tag={{ . }}" class="tag-chip">#{{ . }}</a>
+          <a href="{{ printf "rezepte/?tag=%s" . | relURL }}" class="tag-chip">#{{ . }}</a>
         {{ end }}
       </div>
       <div class="recipe-back-link">
-        <a href="/rezepte/" class="btn btn-secondary">&larr; Zurück zur Rezeptübersicht</a>
+        <a href="{{ "rezepte/" | relURL }}" class="btn btn-secondary">&larr; Zurück zur Rezeptübersicht</a>
       </div>
     </div>
   </div>
