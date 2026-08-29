@@ -60,10 +60,10 @@
       "note": ""
     },
     {
-      "name": "Frischer Ingwer",
+      "name": "Knoblauchzehe",
       "amount": 1,
-      "unit": "TL",
-      "note": "in feinen Streifen"
+      "unit": "Stück",
+      "note": "in feine Scheiben"
     },
     {
       "name": "Sojasauce & Limettensaft",
@@ -78,13 +78,13 @@
       "note": ""
     }
   ],
-  "summary": "Erfrischende, kalorienarme und wohltuende asiatische Brühe mit Ingwer, Tofu und frischen Sprossen."
+  "summary": "Erfrischende, kalorienarme und wohltuende asiatische Brühe mit Knoblauch, Tofu, Shiitake/Champignons und frischen Sprossen."
 }
 ---
 
 ## Zubereitung
 
-1. Gemüsebrühe mit Ingwerstreifen und Champignonscheiben im Topf aufkochen und 5 Minuten ziehen lassen.
+1. Gemüsebrühe mit feinen Knoblauchscheiben und Champignonscheiben im Topf aufkochen und 5 Minuten ziehen lassen.
 
 2. Tofuwürfel und Sojasauce hineingeben und 3 Minuten sanft erwärmen.
 
@@ -94,4 +94,4 @@
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Ingwer kurbelt die Fettverbrennung an und stärkt das Immunsystem.
+> 💡 **Tipp:** Sojasprossen erst ganz zum Schluss in die heiße Brühe geben, damit sie wunderbar knackig bleiben. Knoblauch schenkt der Brühe tiefe Würze ganz ohne Schärfe.

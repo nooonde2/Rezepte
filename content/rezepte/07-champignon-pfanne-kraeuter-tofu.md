@@ -53,7 +53,7 @@
       "note": ""
     },
     {
-      "name": "Sojajoghurt ungesüßt (oder laktosefreier Joghurt)",
+      "name": "Sojajoghurt, griechischer Joghurt oder Quark",
       "amount": 3,
       "unit": "EL",
       "note": "für den Dip"
@@ -77,7 +77,7 @@
       "note": ""
     }
   ],
-  "summary": "Goldbraun gebratene Pilze wie vom Weihnachtsmarkt, serviert mit cremigem laktosefreiem Kräuter-Dip."
+  "summary": "Goldbraun gebratene Pilze wie vom Weihnachtsmarkt, serviert mit cremigem Kräuter-Knoblauch-Dip."
 }
 ---
 
@@ -85,14 +85,14 @@
 
 1. Champignons mit einem Küchentuch putzen und vierteln.
 
-2. Öl in einer heißen Pfanne erhitzen. Champignons ohne Wenden 2 Minuten scharf anbraten, dann durchschwenken.
+2. Öl in einer heißen Pfanne erhitzen. Champignons ohne Wenden 2 Minuten heiß anbraten, dann durchschwenken.
 
 3. Lauchzwiebeln und Knoblauch dazugeben und weitere 3 Minuten braten. Mit Salz und frisch gemahlenem Pfeffer würzen.
 
-4. Für den Dip: Sojajoghurt mit Zitronensaft, gehackten Kräutern, Salz und Pfeffer cremig verrühren.
+4. Für den Dip: Joghurt oder Quark mit Zitronensaft, gehackten Kräutern, Salz und Pfeffer cremig verrühren.
 
 5. Die heißen Champignons zusammen mit dem kalten Kräuter-Dip servieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Pilze erst ganz am Ende salzen, damit sie kein Wasser ziehen und schön braun und aromatisch anrösten.
+> 💡 **Tipp:** Pilze erst ganz am Ende salzen, damit sie kein Wasser ziehen und schön braun und aromatisch anrösten. Griechischer Joghurt oder Quark liefert eine wunderbare Cremigkeit für den Dip.

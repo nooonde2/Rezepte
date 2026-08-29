@@ -33,7 +33,7 @@
       "name": "Blumenkohl",
       "amount": 200,
       "unit": "g",
-      "note": "in der Küchenmaschine oder Reibe zu 'Reiskörnern' gerieben"
+      "note": "mit Reibe oder im Mixer zu 'Reiskörnern' zerkleinert"
     },
     {
       "name": "Ei",
@@ -66,23 +66,23 @@
       "note": ""
     },
     {
-      "name": "Frischer Ingwer",
-      "amount": 0.5,
-      "unit": "TL",
-      "note": "gerieben"
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "Stück",
+      "note": "fein gehackt"
     }
   ],
-  "summary": "Die perfekte Low-Carb Alternative zu gebratenem Eierreis – fertig in unter 20 Minuten."
+  "summary": "Die perfekte Low-Carb Alternative zu gebratenem Eierreis mit Knoblauch und Sojasprossen – fertig in unter 20 Minuten."
 }
 ---
 
 ## Zubereitung
 
-1. Blumenkohl mit einer Küchenreibe oder Mixer zerkleinern, sodass reiskorngroße Stücke entstehen.
+1. Blumenkohl mit einer Küchenreibe oder kurz im Mixer pulsierend zerkleinern, sodass reiskorngroße Stücke entstehen.
 
-2. Öl im Wok erhitzen. Verquirlte Eier hineingeben, kurz stocken lassen und wie Rührei zerteilen, dann kurz an den Rand schieben.
+2. Öl im Wok oder einer Pfanne erhitzen. Verquirlte Eier hineingeben, kurz stocken lassen und wie Rührei zerteilen, dann kurz an den Rand schieben.
 
-3. Blumenkohlreis, Ingwer und Lauchzwiebeln in die Pfanne geben und bei hoher Hitze 4 Minuten pfannenrühren.
+3. Blumenkohlreis, Knoblauch und Lauchzwiebeln in die Pfanne geben und bei hoher Hitze 4 Minuten pfannenrühren.
 
 4. Sojasprossen und Sojasauce dazugeben und alles zusammen 2 weitere Minuten durchschwenken.
 
@@ -90,4 +90,4 @@
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Blumenkohlreis nicht zu lange braten, damit er nicht matschig wird, sondern einen knackigen Reiskorn-Biss behält.
+> 💡 **Tipp:** Blumenkohlreis nicht zu lange braten, damit er nicht matschig wird, sondern einen knackigen Reiskorn-Biss behält. Knoblauch sorgt für fantastisches Aroma und ist gut für den Blutdruck.

@@ -53,6 +53,12 @@
       "note": "fein gehackt"
     },
     {
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "Stück",
+      "note": "fein gehackt"
+    },
+    {
       "name": "Olivenöl",
       "amount": 1,
       "unit": "EL",
@@ -71,7 +77,7 @@
       "note": ""
     }
   ],
-  "summary": "Saftige Paprikaschoten gefüllt mit würzigem, feinem Tofu-Hack in fruchtiger Tomatensauce."
+  "summary": "Saftige Paprikaschoten gefüllt mit würzigem, feinem Tofu-Hack in fruchtiger Tomatensauce mit Knoblauch & Kräutern."
 }
 ---
 
@@ -79,11 +85,11 @@
 
 1. Backofen auf 200°C vorheizen.
 
-2. Öl in der Pfanne erhitzen, zerbröselten Tofu und Lauchzwiebel 4 Minuten scharf anbraten.
+2. Öl in der Pfanne erhitzen, zerbröselten Tofu, Knoblauch und Lauchzwiebel 4 Minuten kross anbraten.
 
 3. Tomaten, Kräuter, Salz und Pfeffer unterrühren und 3 Minuten einköcheln.
 
-4. Die Masse in die vorbereitete Paprika füllen, den Paprikadeckel aufsetzen und in eine Auflaufform stellen.
+4. Die Masse in die vorbereitete Paprika füllen, den Paprikadeckel aufsetzen (wer mag, streut etwas geriebenen Gouda hinein) und in eine Auflaufform stellen.
 
 5. Im Ofen für 20-25 Minuten backen, bis die Paprika gar und saftig ist.
 

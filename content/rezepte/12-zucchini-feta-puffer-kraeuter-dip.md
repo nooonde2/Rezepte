@@ -65,19 +65,19 @@
       "note": "zum Braten"
     },
     {
-      "name": "Sojajoghurt oder laktosefreier Quark",
+      "name": "Sojajoghurt, griechischer Joghurt oder Quark",
       "amount": 2,
       "unit": "EL",
       "note": "für den Dip"
     },
     {
-      "name": "Salz, Pfeffer & Muskatnuss",
+      "name": "Salz, Pfeffer & frische Kräuter (Dill/Petersilie)",
       "amount": 0,
       "unit": "nach Geschmack",
       "note": ""
     }
   ],
-  "summary": "Fein geraspelte Zucchini mit Ei, Mandelmehl und einem Hauch Feta kross in der Pfanne ausgebacken."
+  "summary": "Fein geraspelte Zucchini mit Ei, Mandelmehl und würzigem Feta kross in der Pfanne ausgebacken."
 }
 ---
 
@@ -85,14 +85,14 @@
 
 1. Zucchini raspeln, mit einer Prise Salz bestreuen und 5 Minuten ziehen lassen. Anschließend kräftig mit den Händen das Wasser ausdrücken!
 
-2. Ausgedrückte Zucchini mit Ei, zerbröseltem Feta, Mandelmehl, Lauchzwiebelringen, Pfeffer und Muskat vermengen.
+2. Ausgedrückte Zucchini mit Ei, zerbröseltem Feta, Mandelmehl, Lauchzwiebelringen, Pfeffer und Kräutern vermengen.
 
 3. Öl in einer Pfanne erhitzen. Mit einem Löffel Portionen in die Pfanne setzen und flach drücken.
 
 4. Von jeder Seite ca. 4 Minuten goldbraun braten.
 
-5. Den Joghurt mit Kräutern, Salz und Zitronensaft verrühren und zu den Puffern servieren.
+5. Den Joghurt oder Quark mit Kräutern, einer kleinen Prise Knoblauch, Salz und Zitronensaft verrühren und zu den warmen Puffern servieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Das gründliche Ausdrücken der Zucchini ist das Geheimnis für richtig knusprige Puffer.
+> 💡 **Tipp:** Das gründliche Ausdrücken der Zucchini ist das Geheimnis für richtig knusprige Puffer. Griechischer Joghurt oder Quark als Dip liefert extra cremiges Eiweiß.

@@ -37,10 +37,10 @@
       "note": "sehr fein gewürfelt"
     },
     {
-      "name": "Räuchertofu oder Naturtofu",
+      "name": "Naturtofu",
       "amount": 100,
       "unit": "g",
-      "note": "sehr fein gewürfelt"
+      "note": "sehr fein gewürfelt & mit 1 TL Sojasauce mariniert"
     },
     {
       "name": "Salatgurke",
@@ -73,13 +73,13 @@
       "note": ""
     }
   ],
-  "summary": "Fein gewürfelter Tofu und reife Avocado mariniert mit Limette, Sojasauce und Sesam auf dicken Gurkenscheiben."
+  "summary": "Fein gewürfelter Naturtofu und reife Avocado mariniert mit Limette, Sojasauce und Sesam auf dicken Gurkenscheiben."
 }
 ---
 
 ## Zubereitung
 
-1. Avocado, Tofu und Lauchzwiebel in kleine, gleichmäßige Würfelchen schneiden.
+1. Avocado, Naturtofu und Lauchzwiebel in kleine, gleichmäßige Würfelchen schneiden.
 
 2. Mit Limettensaft, Sesamöl, Sojasauce, einer Prise Salz und Pfeffer vorsichtig vermengen.
 
@@ -91,4 +91,4 @@
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Edel angerichtet wie im Gourmet-Restaurant – dabei in 10 Minuten ohne Herd gezaubert!
+> 💡 **Tipp:** Naturtofu nimmt die feine Marinade aus Limette und Sesamöl fantastisch auf. Edel angerichtet wie im Gourmet-Restaurant – dabei in 10 Minuten ohne Herd gezaubert!

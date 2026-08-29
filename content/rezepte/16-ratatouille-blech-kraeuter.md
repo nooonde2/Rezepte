@@ -96,4 +96,4 @@
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Für extra Eiweiß kann man hier 100g Natur- oder Räuchertofu einfach mit aufs Blech würfeln!
+> 💡 **Tipp:** Für extra Eiweiß kann man hier 100g Naturtofu oder gewürfelten Gouda/Feta einfach mit aufs Blech geben! Knoblauch entfaltet im Ofen eine wunderbar milde Süße.

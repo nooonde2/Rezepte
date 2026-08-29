@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Warmer Spinat-Champignon-Salat mit Chili-Tofu & Avocado",
+  "title": "Warmer Spinat-Champignon-Salat mit Knoblauch-Tofu & Avocado",
   "slug": "13-avocado-spinat-tofu-salat",
   "date": "2026-08-01T12:00:00Z",
   "category": "Abendessen",
@@ -54,6 +54,12 @@
       "note": "in Spalten"
     },
     {
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "Stück",
+      "note": "fein gehackt"
+    },
+    {
       "name": "Olivenöl",
       "amount": 1,
       "unit": "EL",
@@ -66,19 +72,19 @@
       "note": ""
     },
     {
-      "name": "Chiliflocken, Salz & Pfeffer",
+      "name": "Salz & schwarzer Pfeffer",
       "amount": 0,
       "unit": "nach Geschmack",
       "note": ""
     }
   ],
-  "summary": "Aromatischer Babyspinat, in der Pfanne leicht zusammengefallen mit warmen Champignons, krossem Tofu und cremiger Avocado."
+  "summary": "Aromatischer Babyspinat, in der Pfanne leicht zusammengefallen mit warmen Champignons, krossem Knoblauch-Tofu und cremiger Avocado."
 }
 ---
 
 ## Zubereitung
 
-1. Tofuwürfel in einer heißen Pfanne mit etwas Olivenöl und Chiliflocken 4 Minuten kross anbraten.
+1. Tofuwürfel und Knoblauch in einer heißen Pfanne mit etwas Olivenöl 4 Minuten kross anbraten.
 
 2. Champignonscheiben hinzufügen und 3 Minuten mitbraten.
 
@@ -88,4 +94,4 @@
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Avocados liefern wertvolle einfach ungesättigte Fettsäuren, die lange satt halten.
+> 💡 **Tipp:** Avocados liefern wertvolle einfach ungesättigte Fettsäuren, die lange satt halten. Knoblauch bringt tollen Geschmack ganz ohne Schärfe.

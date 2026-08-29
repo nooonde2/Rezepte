@@ -53,10 +53,10 @@
       "note": "mit Kräutern gewürzt"
     },
     {
-      "name": "Hefeflocken oder geriebener Mandelkranz",
+      "name": "Geriebener Gouda oder Hefeflocken",
       "amount": 1,
       "unit": "EL",
-      "note": ""
+      "note": "zum Überbacken"
     },
     {
       "name": "Basilikum, Knoblauch, Salz & Pfeffer",
@@ -65,7 +65,7 @@
       "note": ""
     }
   ],
-  "summary": "Dünne Zucchinistreifen geschichtet mit selbstgemachtem Tofu-Kräuter-Ricotta und Tomatensauce."
+  "summary": "Dünne Zucchinistreifen geschichtet mit selbstgemachtem Tofu-Kräuter-Ricotta (oder Quark/Frischkäse) und Tomatensauce."
 }
 ---
 
@@ -73,14 +73,14 @@
 
 1. Backofen auf 190°C vorheizen.
 
-2. Für den Tofu-Ricotta: Tofu mit Zitronensaft, Olivenöl, Knoblauch, Salz, Pfeffer und Basilikum mit einer Gabel zerdrücken oder kurz pürieren.
+2. Für den Tofu-Ricotta: Tofu mit Zitronensaft, Olivenöl, Knoblauch, Salz, Pfeffer und Basilikum mit einer Gabel zerdrücken oder kurz im Mixer/Pürierstab anmixen (alternativ mit Frischkäse/Quark verfeinern).
 
-3. In einer kleinen Auflaufform abwechselnd Zucchinischeiben, Tomatensauce und Tofu-Ricotta schichten.
+3. In einer kleinen Auflaufform abwechselnd Zucchinischeiben, Tomatensauce und Ricotta schichten.
 
-4. Mit Hefeflocken oder etwas Pfeffer abschließen.
+4. Mit geriebenem Gouda/Emmentaler oder Hefeflocken abschließen.
 
-5. Für 20 Minuten im Ofen backen, bis die Zucchini weich ist und duftet.
+5. Für 20 Minuten im Ofen backen, bis die Zucchini weich ist und der Käse goldgelb schmilzt.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Tofu püriert mit Zitrone und Olivenöl schmeckt verblüffend ähnlich wie klassischer italienischer Ricotta – ganz ohne Laktose.
+> 💡 **Tipp:** Dünne Zucchinischeiben ersetzen schwere Nudelplatten perfekt – 100% kohlenhydratarm. Mit geschmolzenem Gouda oder Emmentaler überbacken schmeckt es fantastisch!

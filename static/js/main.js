@@ -252,24 +252,24 @@ function initShoppingList() {
 
   const weeklyShoppingData = {
     'week-1': [
-      { cat: 'Gemüse & Frische', items: ['2 große Zucchini', '1 Kopf Brokkoli (ca. 500g)', '2 rote & gelbe Paprika', '300g braune Champignons', '1 Bund Lauchzwiebeln (4-5 Stangen)', '1 Packung frische Sojasprossen (150g)', '200g Cherrytomaten / Tomaten', '1 Zitrone & 2 Limetten', '1 Knoblauchknolle'] },
-      { cat: 'Kühltheke & Proteine', items: ['2 Packungen Naturtofu (je 200-400g)', '1 Packung Räuchertofu (200g)', '1 Schachtel Bio-Eier (6 oder 10 Stück)', '1 Packung Feta / Schafskäse (nur ca. 90g gebraucht)', '1 Becher laktosefreier Magerquark oder Sojajoghurt (500g)'] },
-      { cat: 'Vorratskammer & Gewürze', items: ['2 Dosen gehackte Tomaten (je 400g)', '1 Glas Tahini (Sesammus)', '1 Flasche Sojasauce (Tamari)', 'Sesamöl & Olivenöl', 'Mandelblättchen (ca. 50g)', 'Gelbe Currypaste (ohne Fischsauce)', '1 Dose Kokosmilch (400ml)', 'Sesamsamen & Chia-Samen', 'Kräuter der Provence, Kreuzkümmel, Salz & Pfeffer'] }
+      { cat: 'Gemüse & Frische (Penny)', items: ['2 große Zucchini', '1 Kopf Brokkoli (ca. 500g)', '2 rote & gelbe Paprika', '300g braune Champignons / Shiitake', '1 Bund Lauchzwiebeln (4-5 Stangen)', '1 Packung frische Sojasprossen (150g)', '200g Cherrytomaten / Rispentomaten', '1 Zitrone & 2 Limetten', '1 Knoblauchknolle'] },
+      { cat: 'Kühltheke & Proteine', items: ['3 Packungen Naturtofu (je 200-400g)', '1 Schachtel Bio-Eier (6 oder 10 Stück)', '1 Packung Feta / Gouda (gerieben oder am Stück)', '1 Becher griechischer Joghurt, Quark oder Sojajoghurt (500g)'] },
+      { cat: 'Vorratskammer & Gewürze', items: ['2 Dosen gehackte Tomaten (je 400g)', '1 Glas Tahini (Sesammus)', '1 Flasche Sojasauce (Tamari)', 'Sesamöl & natives Olivenöl', 'Mandelblättchen (ca. 50g)', 'Gelbe Currypaste (mild)', '1 Dose Kokosmilch (400ml)', 'Sesamsamen & Chia-Samen', 'Kräuter der Provence, Paprikapulver edelsüß, Salz & Pfeffer'] }
     ],
     'week-2': [
-      { cat: 'Gemüse & Frische', items: ['3 mittelgroße Zucchini', '1 Kopf Blumenkohl', '1 Kopf Brokkoli', '250g braune Champignons', '1 Packung Babyspinat (150g)', '2 rote Paprika', '1 Bund Lauchzwiebeln', '1 Packung Sojasprossen', '1 reife Avocado', '1 Salatgurke', '2 Limetten & frischer Dill'] },
-      { cat: 'Kühltheke & Proteine', items: ['3 Packungen Naturtofu', '1 Packung Räuchertofu', '1 Packung Feta (60g benötigt)', '1 Schachtel Eier (6 Stück)', '1 Becher Sojajoghurt / laktosefreier Quark'] },
-      { cat: 'Vorratskammer & Nüsse', items: ['Walnusskerne (50g)', 'Mandelmehl oder gemahlene Mandeln (100g)', 'Weißes Mandelmus (1 Glas)', 'Tomatenmark', 'Sesamsamen, Senf & Paprikapulver geräuchert', 'Gemüsebrühe'] }
+      { cat: 'Gemüse & Frische (Penny)', items: ['3 mittelgroße Zucchini', '1 Kopf Blumenkohl', '1 Kopf Brokkoli', '250g braune Champignons', '1 Packung Babyspinat (150g)', '2 rote Paprika', '1 Bund Lauchzwiebeln', '1 Packung Sojasprossen', '1 reife Avocado', '1 Salatgurke', '2 Limetten, 1 Knoblauchknolle & frischer Dill'] },
+      { cat: 'Kühltheke & Proteine', items: ['4 Packungen Naturtofu', '1 Packung Feta oder Gouda', '1 Schachtel Eier (6 Stück)', '1 Becher griechischer Joghurt / Quark'] },
+      { cat: 'Vorratskammer & Nüsse', items: ['Walnusskerne (50g)', 'Mandelmehl oder gemahlene Mandeln (100g)', 'Weißes Mandelmus (1 Glas)', 'Tomatenmark', 'Sesamsamen, Senf (mild) & mildes geräuchertes Paprikapulver', 'Gemüsebrühe'] }
     ],
     'week-3': [
-      { cat: 'Gemüse & Frische', items: ['3 große Paprikaschoten (zum Füllen & Spieße)', '1 Aubergine', '2 Zucchini', '1 Kopf Blumenkohl', '200g Champignons', '250g Cherrytomaten', '1 Bund Lauchzwiebeln', '1 Packung Sojasprossen', '1 kleine Dose Mais (sparsam)', '2 Limetten & 2 Zitronen'] },
-      { cat: 'Kühltheke & Proteine', items: ['3 Packungen Naturtofu', '1 Packung Seidentofu oder Naturtofu', '1 Schachtel Eier', 'Ungesüßte Mandelmilch'] },
-      { cat: 'Vorratskammer & Gewürze', items: ['2 Dosen gehackte Tomaten', 'Kürbiskerne & Sonnenblumenkerne', 'Holzspieße für Tofu-Spieße', 'Kräuter der Provence, Oregano, Thymian', 'Chiliflocken & Sojasauce'] }
+      { cat: 'Gemüse & Frische (Penny)', items: ['3 große Paprikaschoten (zum Füllen & Spieße)', '1 Aubergine', '2 Zucchini', '1 Kopf Blumenkohl', '200g Champignons', '250g Cherrytomaten', '1 Bund Lauchzwiebeln', '1 Packung Sojasprossen', '1 kleine Dose Mais (sparsam)', '2 Limetten & 2 Zitronen', 'Frischer Knoblauch'] },
+      { cat: 'Kühltheke & Proteine', items: ['4 Packungen Naturtofu oder Seidentofu', '1 Schachtel Eier', 'Gouda oder Feta zum Überbacken', 'Ungesüßte Mandelmilch oder Schmand'] },
+      { cat: 'Vorratskammer & Gewürze', items: ['2 Dosen gehackte Tomaten', 'Kürbiskerne & Sonnenblumenkerne', 'Holzspieße für Tofu-Spieße', 'Kräuter der Provence, Oregano, Thymian', 'Paprikapulver edelsüß & Sojasauce'] }
     ],
     'week-4': [
-      { cat: 'Gemüse & Frische', items: ['2 Köpfe Brokkoli', '300g braune Champignons', '3 rote Paprika', '2 Zucchini', '1 Aubergine', '1 Packung Sojasprossen', '1 Salatgurke', '1 reife Avocado', '1 Bund frisches Basilikum & Petersilie', '3 Limetten & 1 Zitrone'] },
-      { cat: 'Kühltheke & Proteine', items: ['3 Packungen Naturtofu', '1 Packung Räuchertofu', 'Sojajoghurt ungesüßt', 'Mandelmilch ungesüßt'] },
-      { cat: 'Vorratskammer & Nüsse', items: ['1 Dose Kokosmilch (400ml)', '1 Glas Erdnussmus (100% Erdnuss)', 'Sonnenblumenkerne & Sesam', 'Hefeflocken (optional für käsige Lasagne)', '2 Dosen gehackte Tomaten', 'Grüne oder gelbe Currypaste'] }
+      { cat: 'Gemüse & Frische (Penny)', items: ['2 Köpfe Brokkoli', '300g braune Champignons / Shiitake', '3 rote Paprika', '2 Zucchini', '1 Aubergine', '1 Packung Sojasprossen', '1 Salatgurke', '1 reife Avocado', '1 Bund frisches Basilikum & Petersilie', '3 Limetten & 1 Zitrone'] },
+      { cat: 'Kühltheke & Proteine', items: ['4 Packungen Naturtofu', 'Gouda / Emmentaler gerieben', 'Griechischer Joghurt oder Quark', 'Mandelmilch ungesüßt'] },
+      { cat: 'Vorratskammer & Nüsse', items: ['1 Dose Kokosmilch (400ml)', '1 Glas Erdnussmus (100% Erdnuss)', 'Sonnenblumenkerne & Sesam', 'Hefeflocken (optional)', '2 Dosen gehackte Tomaten', 'Milde gelbe Currypaste'] }
     ]
   };
 

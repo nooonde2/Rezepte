@@ -72,26 +72,26 @@
       "note": "zum Verrühren des Dressings"
     },
     {
-      "name": "Gehackte Erdnüsse & Chili",
+      "name": "Gehackte Erdnüsse & Sesamsamen",
       "amount": 1,
       "unit": "TL",
-      "note": "zum Bestreuen"
+      "note": "zum Bestreuen (mild, ohne Chili)"
     }
   ],
-  "summary": "Rohes Power-Abendessen ganz ohne Kochen: Sojasprossen, Paprikastreifen und Gurke in cremigem Erdnuss-Limetten-Dressing."
+  "summary": "Rohes Power-Abendessen ganz ohne Kochen: Sojasprossen, Paprikastreifen und Gurke in mildem Erdnuss-Limetten-Dressing."
 }
 ---
 
 ## Zubereitung
 
-1. Für das Dressing: Erdnussmus, Limettensaft, Sojasauce und warmes Wasser mit einer Gabel cremig rühren.
+1. Für das Dressing: Erdnussmus (oder Erdnussbutter 100%), Limettensaft, Sojasauce und warmes Wasser mit einer Gabel cremig rühren.
 
 2. Sojasprossen, Paprikastreifen und Gurkenstifte in eine Schüssel geben.
 
 3. Dressing über das Gemüse gießen und gründlich vermengen.
 
-4. Mit gehackten Erdnüssen und etwas Chili bestreuen und sofort knackig servieren.
+4. Mit gehackten Erdnüssen und Sesamsamen bestreuen und sofort knackig servieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Perfekt für heiße Sommertage oder wenn es nach der Arbeit in 10 Minuten fertig sein muss!
+> 💡 **Tipp:** Perfekt für heiße Sommertage oder wenn es nach der Arbeit in 10 Minuten fertig sein muss! Erdnussmus liefert pflanzliches Protein und gesunde Fette, ganz ohne Schärfe.

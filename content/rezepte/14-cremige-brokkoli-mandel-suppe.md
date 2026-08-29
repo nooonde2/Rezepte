@@ -65,7 +65,7 @@
       "note": "für die Deko"
     },
     {
-      "name": "Salz, Pfeffer & Muskat",
+      "name": "Salz & schwarzer Pfeffer",
       "amount": 0,
       "unit": "nach Geschmack",
       "note": ""
@@ -77,16 +77,16 @@
 
 ## Zubereitung
 
-1. Brokkoli und Lauchzwiebel in einem Topf mit der Gemüsebrühe aufkochen und 10 Minuten weich köcheln.
+1. Brokkoli und Lauchzwiebel in einem Topf mit der Gemüsebrühe aufkochen und 10 Minuten weich köcheln (oder im Dampfgarer garen und mit Brühe aufgießen).
 
 2. Mandelmus und Limettensaft hinzufügen.
 
-3. Mit dem Pürierstab cremig fein aufmixen.
+3. Im Mixer oder mit dem Pürierstab samtig fein aufmixen.
 
-4. Mit Salz, Pfeffer und einer Prise Muskat abschmecken.
+4. Mit Salz und einer Prise schwarzem Pfeffer abschmecken.
 
 5. In einer Schale anrichten und mit gerösteten Mandelblättchen bestreuen.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Mandelmus ersetzt Sahne perfekt: cremig, laktosefrei und voller gesunder Fette!
+> 💡 **Tipp:** Mandelmus (oder Kokosmilch / Schmand) ersetzt Sahne perfekt: wunderbar cremig und reich an gesunden Fetten!

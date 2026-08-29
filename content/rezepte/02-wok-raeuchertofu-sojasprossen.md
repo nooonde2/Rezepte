@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Bunte Wok-Pfanne mit Räuchertofu & Sojasprossen",
+  "title": "Bunte Wok-Pfanne mit Naturtofu & frischen Sojasprossen",
   "slug": "02-wok-raeuchertofu-sojasprossen",
   "date": "2026-08-01T12:00:00Z",
   "category": "Abendessen",
@@ -30,7 +30,7 @@
   },
   "ingredients": [
     {
-      "name": "Räuchertofu",
+      "name": "Naturtofu",
       "amount": 125,
       "unit": "g",
       "note": "in kleine Würfel geschnitten"
@@ -78,15 +78,15 @@
       "note": "zum Bestreuen"
     }
   ],
-  "summary": "Knackiges Supermarkt-Gemüse trifft auf würzigen Räuchertofu und frische Sojasprossen – asiatisch leicht."
+  "summary": "Knackiges Supermarkt-Gemüse trifft auf krossen Naturtofu, Sojasauce und frische Sojasprossen – asiatisch leicht."
 }
 ---
 
 ## Zubereitung
 
-1. Räuchertofu in mundgerechte Würfel schneiden. Paprika in Streifen und Lauchzwiebeln in Ringe schneiden.
+1. Naturtofu in mundgerechte Würfel schneiden und trocken tupfen. Paprika in Streifen und Lauchzwiebeln in Ringe schneiden.
 
-2. Öl im Wok oder einer großen Pfanne stark erhitzen. Tofuwürfel rundherum 3-4 Minuten kross anbraten.
+2. Öl im Wok oder einer großen Pfanne stark erhitzen. Tofuwürfel rundherum 3-4 Minuten goldbraun und kross anbraten.
 
 3. Paprikastreifen und den hellen Teil der Lauchzwiebeln dazugeben und 2-3 Minuten pfannenrühren.
 
@@ -96,4 +96,4 @@
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Sojasprossen erst ganz zum Schluss dazugeben, damit sie wunderbar knackig bleiben.
+> 💡 **Tipp:** Sojasprossen erst ganz zum Schluss dazugeben, damit sie wunderbar knackig bleiben. Naturtofu vor dem Braten kurz mit Küchenpapier ausdrücken, damit er herrlich kross wird.

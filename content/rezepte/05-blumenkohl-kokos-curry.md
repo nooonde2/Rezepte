@@ -48,10 +48,10 @@
       "note": "aus der Dose"
     },
     {
-      "name": "Gelbe Currypaste (ohne Fischsauce)",
+      "name": "Gelbe Currypaste (mild, ohne Fischsauce)",
       "amount": 1,
       "unit": "TL",
-      "note": ""
+      "note": "mild"
     },
     {
       "name": "Lauchzwiebel",
@@ -78,7 +78,7 @@
       "note": ""
     }
   ],
-  "summary": "Ein wärmendes, mild-scharfes gelbes Curry ohne Kohlenhydrate mit zartem Blumenkohl und Tofuwürfeln."
+  "summary": "Ein wärmendes, mild-aromatisches gelbes Kokos-Curry ohne Kohlenhydrate mit zartem Blumenkohl und Tofuwürfeln."
 }
 ---
 
@@ -88,12 +88,12 @@
 
 2. Kokosöl in einer Pfanne erhitzen, Tofuwürfel 3 Minuten anbraten und herausnehmen.
 
-3. Currypaste in der Pfanne 30 Sekunden anrösten, mit Kokosmilch und 50ml Wasser ablöschen.
+3. Milde gelbe Currypaste in der Pfanne 30 Sekunden anrösten, mit cremiger Kokosmilch und 50ml Wasser ablöschen.
 
-4. Blumenkohlröschen und Lauchzwiebeln hineingeben, auf mittlerer Hitze ca. 10 Minuten sanft köcheln lassen.
+4. Blumenkohlröschen und Lauchzwiebeln hineingeben, auf mittlerer Hitze ca. 10 Minuten sanft köcheln lassen (oder schonend im Dampfgarer vorgaren).
 
-5. Tofuwürfel wieder dazugeben, mit Limettensaft, etwas Limettenabrieb und Salz abschmecken. Mit Koriander garnieren.
+5. Tofuwürfel wieder dazugeben, mit Limettensaft, etwas Limettenabrieb und Salz abschmecken. Mit Petersilie oder Koriander garnieren.
 
 ## Supermarkt- & Ernährungs-Tipp
 
-> 💡 **Tipp:** Gelbe oder rote Thai-Currypaste im Supermarkt kurz auf Zutaten prüfen (auf Fischsauce / Garnelenpaste achten – die meisten gängigen Supermarkt-Pasten wie Bamboo Garden oder Alnatura sind rein pflanzlich).
+> 💡 **Tipp:** Gelbe Thai-Currypaste ist von Natur aus sehr mild und nicht scharf. Kokosmilch bringt sämige Fülle und wird bestens vertragen.
