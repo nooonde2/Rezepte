@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://nooonde2.github.io/Rezepte/'
 defaultContentLanguage = 'de'
 locale = 'de-DE'
 title = 'Rezepte | Low Carb & Zuckerarm'

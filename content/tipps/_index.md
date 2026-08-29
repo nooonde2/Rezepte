@@ -60,5 +60,5 @@ Weil wir auf Fleisch, Fisch, Schärfe, Muskat und Ingwer verzichten, bringen die
 ---
 
 ### 7. 🛒 Einkaufsliste pro Woche
-Nutze den [Wochenplan](/wochenplan/), um auf einen Klick alle Penny-Zutaten für 7 Tage gebündelt zu sehen und mit Checkboxen abzuhaken.
+Nutze den [Wochenplan]({{< relref "wochenplan" >}}), um auf einen Klick alle Penny-Zutaten für 7 Tage gebündelt zu sehen und mit Checkboxen abzuhaken.
 
